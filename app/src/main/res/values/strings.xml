@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Try</string>
+    <string name="transition_string">Hello Kyle!</string>
+</resources>
