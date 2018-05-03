@@ -1,0 +1,25 @@
+The source code for our project can be found at this github link:
+
+https://github.com/kgifaldi/GoVirile
+
+Note: If you try to run the github code, it may not function because github ignored the gradle files which contain a couple of added libraries.
+
+
+
+The application is an android app and the main code is the following:
+Java classes
+All of the classes correspond to different views in the application. The application starts from the main activity from which the app will go to the camera open class or the saved ingredients class depending on which button the user clicks. 
+From camera open
+The app goes to the capture display class
+From capture display
+The app goes to ingredient display if the user clicks on an ingredient
+Or the saved ingredients once the user clicks the save button (note there is an in between activity called pop which allows the user to title the ingredient list)
+From saved ingredients
+The user can click on any ingredient list which will take them to a corresponding capture display activity (except from here the save button won’t appear since the user already saved the list and shouldn’t re save)
+Xml layouts
+Each layout just corresponds to a matching named java class which starts view in a new activity.
+
+
+
+
+
